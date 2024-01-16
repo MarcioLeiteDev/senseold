@@ -1,0 +1,17 @@
+{
+  "name": "autocenter",
+  "version": "1.0.0",
+  "description": "Project Auto Center website e work control",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marcio Leite",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "bootstrap": "^4.6.0",
+    "bootstrap-select": "^1.13.18",
+    "jquery": "^3.6.0"
+  }
+}

@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap');
+
+body { 
+    margin: 0;
+    background: #fff;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+td{
+    font-size:.8em;
+}
+
+.row{
+    margin:0px;
+}
+
+.fontboxdown{
+    text-transform: none;
+    font-size: 0.8em;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 200;
+    right: 200;
+    width: 50px;
+    z-index: 99;
+
+}
+
+.bordernav{
+    border-bottom: 2px solid #EC5A05;
+}
+
+.icone{
+    font-size: 3em;
+    color:#A9A9A9;
+}
+
+.atendimento{
+    background: url('../..//..//assets/image/atendimento-desktop.svg') no-repeat center;
+    min-height: 278px;
+}
+
+.fixarrodape {
+        bottom: 0;
+        position: fixed;
+        width: 50px;;
+        text-align: center;
+        margin-left: 90%;
+        font-size: 2em;
+        padding: 10px;
+        background: #fff;
+        border-radius:15px;
+        opacity: 80%;
+        z-index: 100;
+    }
+
+.iconehome{
+    font-size: 3em;
+    color: #333399;
+}
+
+.blocohome{
+     background: url('../..//..//assets/image/translate.jpg');
+    background-position: center 25%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height:  800px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+   
+}
+
+.boxhome{
+    background: rgba(255,255,255,0.85);
+    margin-top: 150px;
+    border-radius:15px;
+    padding: 30px;
+    min-height: 300px;
+     box-shadow: 0 0 0.5em black;
+}
+
+.boxhome2{
+    background: rgba(0,0,0,0.6);
+    margin-top: 10px;
+    margin-left: 800px;
+    max-height: 250px;
+    border-radius:15px;
+    padding: 30px;
+    box-shadow: 0 0 0.5em white;
+}
+
+.homeespecialidades{
+    
+    border-top: 8px solid #EC5A05;
+    border-radius: 15px;
+    margin-top: -50px;
+    background: #fff;
+    min-height: 850px;
+}
+
+#servicos{
+    
+    background: url('../..//..//assets/image/traducao-home.jpg' ) no-repeat center center fixed ;
+    background-position: center 25%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+    text-transform: uppercase;
+    font-size: 1.2em;
+    min-height: 1200px;
+}
+
+.clear{
+    clear: both;
+}
+
+.boxservicos{
+    width: 95%;   
+    position: relative;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #fff;
+    opacity: 0.95;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-left: 2%;
+    
+   
+}
+
+.card{
+    box-shadow: 0 0 0.5em black;
+    width: 49%;
+    margin: 2%;
+    padding: 10px;
+}
+
+#tooltip {
+        background: #333;
+        color: white;
+        font-weight: bold;
+        padding: 4px 8px;
+        font-size: 13px;
+        border-radius: 4px;
+      }
+
+.produtos ,  .contato{
+    min-height: 999px;
+   
+}
+
+.localizacao{
+    min-height: 999px;
+}
+
+.contato{
+    min-height: 800px;
+    border-top: 5px solid #EC5A05;
+}
+
+.contato2{
+    border-radius:0 15px 0 15px;
+    border-top: 16px solid #333399;
+
+    
+}
+
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('http://i.imgur.com/zAD2y29.gif') 50% 50% no-repeat white;
+}
+
+
+.footer{ background: url("../image/footer-bg.jpg") top center no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    margin-top: 40px;}
+
+    
+
+.imgapp{text-align: center; margin: 0 auto; margin-bottom: 0px; z-index: 987; }
+
+.container{
+    padding: 25px;   
+} 
+
+.backform{ border-radius:10px; 
+           background: #fff;
+           opacity:0.85;
+           -moz-opacity: 0.85;
+           filter: alpha(opacity=85);}
+
+.titulo{font-size: 3em; text-align: center; color: #000; margin-top: 30px;}
+.titulo2{font-size: 2em; text-align: center; color: #000; margin-top: 30px;}
+.subtitulo{font-size: 1.5em; text-align: center; color:#000; margin-top: 30px;}
+.subtitulo2{font-size: 1.2em; text-align: center; color:#000; margin-top: 30px;}
+.cad{width: 50%; border-radius:10px; margin-top: 25px; margin-left: 25%; color: white; background:green ;padding: 20px; text-align: center; font-size: 1.5em;}
+.backwhite{background: #fff; margin-top: 20px;}   
+
+.modal-dialog {
+      max-width: 800px;
+      margin: 30px auto;
+  }
+
+
+
+.modal-body {
+  position:relative;
+  padding:0px;
+}
+.close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+.laranja{
+    color:#EC5A05;
+    font-weight: 200;
+}
+.pform{padding: 10px;}
+
+
+.bg-image{
+    background: url('../..//..//assets/image/escritorio.png') no-repeat center center;
+     background-position: center 25%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.line {
+      position: relative;
+      width: 0px;
+      margin: auto;
+      border-right: 2px solid rgba(255, 255, 255, 0.75);
+      font-size: 180%;
+      text-align: left;
+      white-space: nowrap;
+      overflow: hidden;
+
+}
+/*Animação*/
+.anim-typewriter {
+      animation: typewriter 4s steps(9) 500ms infinite,
+      blinkTextCursor 500ms steps(9) infinite normal;
+}
+@keyframes typewriter {
+      0% {
+            width: 0px;
+      }
+      10% {
+            width: 0px;
+      }
+      25% {
+            width: 160px;
+      }
+      75% {
+            width: 160px;
+      }
+      90% {
+            width: 0px;
+      }
+      100% {
+            width: 0px;
+      }
+}
+@keyframes blinkTextCursor {
+      from {
+            border-right-color: rgba(255, 255, 255, 0.75);
+      }
+      to {
+            border-right-color: transparent;
+      }
+}
+
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+.login,
+.image {
+  min-height: 100vh;
+}
+
+
+.js_box{ margin-left: -800px;}
+.js_box2{ margin-right:  -10px;}
+
+@media (min-width:1440px){
+    
+    .boxservicos{
+    width: 95%;   
+    position: relative;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #fff;
+    opacity: 0.95;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-left: 2%;
+    
+   
+}
+    .card{
+    box-shadow: 0 0 0.5em black;
+    width: 48%;
+    margin: 2%;
+    padding: 10px;
+}
+}
+
+
+@media (max-width:769px){
+    .atendimento2{display: none;}
+    .blocohome{
+        background: url('../..//..//assets/image/translate.jpg');
+       background-position: center 25%;
+       background-size: 100%;
+       background-repeat: no-repeat;
+       min-height:  400px;
+       text-transform: uppercase;
+       font-size: 1.2em;
+   }
+   
+   .boxhome{
+       background: rgba(255,255,255,0.8);
+       margin-top: 50px;
+       border-radius:15px;
+       padding: 30px;
+       min-height: 200px;
+   }
+
+   #servicos{
+    min-height: 300px;
+    background: url('../..//..//assets/image/traducao-home.jpg' ) no-repeat center center fixed  ;
+    background-position: center 50%;
+    background-size: 100%;
+    //background-repeat: no-repeat;
+    
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.card{
+    box-shadow: 0 0 0.5em black;
+    width: 90%;
+}
+
+}
+
+.ajax_load_box_circle {
+    border: 16px solid #e3e3e3;
+    border-top: 16px solid var(--hover-color-green);
+    border-radius: 50%;
+    margin: auto;
+    width: 80px;
+    height: 80px;
+
+    -webkit-animation: spin 1.2s linear infinite;
+    -o-animation: spin 1.2s linear infinite;
+    animation: spin 1.2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+

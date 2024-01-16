@@ -1,0 +1,12 @@
+--verificar API clickSIgn
+
+--Criar sistema arvore genealogica
+
+-- criar relatorios de documentos 
+
+--criar relatorios de pagamentos e status de serviços separado por funcionario
+
+-- gerar contratos em pdf.
+
+-- acção de chamada no bloco serviços - chamada para whatsapp
+

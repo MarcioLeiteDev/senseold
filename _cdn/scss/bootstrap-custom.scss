@@ -1,0 +1,13 @@
+@import "variables";
+
+$theme-colors: (
+  "front": #333366,
+  "laranja" : $laranja,
+  "preto" : $preto,
+  "branco" : $branco,
+  "cinza" : $cinza,
+  
+);
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
